@@ -162,7 +162,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       new InputDecorator(
                         decoration: const InputDecoration(
-                          icon: const Icon(Icons.add_box),
+                          icon: const Icon(Icons.public),
                           labelText: 'Country',
                         ),
                         isEmpty: _country == '',
@@ -186,7 +186,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       new InputDecorator(
                         decoration: const InputDecoration(
-                          icon: const Icon(Icons.add_box),
+                          icon: const Icon(Icons.language),
                           labelText: 'Mother Tongue',
                         ),
                         isEmpty: _language == '',
@@ -234,7 +234,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       new InputDecorator(
                         decoration: const InputDecoration(
-                          icon: const Icon(Icons.color_lens),
+                          icon: const Icon(Icons.spa),
                           labelText: 'Religion',
                         ),
                         isEmpty: _color == '',
@@ -275,8 +275,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       new InputDecorator(
                         decoration: const InputDecoration(
-                          icon: const Icon(Icons.add_box),
-                          labelText: 'Father Status',
+                          icon: const Icon(Icons.business),
+                          labelText: 'Father Occupation',
                         ),
                         isEmpty: _father == '',
                         child: new DropdownButtonHideUnderline(
@@ -306,8 +306,8 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       new InputDecorator(
                         decoration: const InputDecoration(
-                          icon: const Icon(Icons.add_box),
-                          labelText: 'Mother Status',
+                          icon: const Icon(Icons.business),
+                          labelText: 'Mother Occupation',
                         ),
                         isEmpty: _mother == '',
                         child: new DropdownButtonHideUnderline(
@@ -330,7 +330,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       new InputDecorator(
                         decoration: const InputDecoration(
-                          icon: const Icon(Icons.add_box),
+                          icon: const Icon(Icons.public),
                           labelText: 'Country',
                         ),
                         isEmpty: _country == '',
@@ -354,7 +354,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       new InputDecorator(
                         decoration: const InputDecoration(
-                          icon: const Icon(Icons.add_box),
+                          icon: const Icon(Icons.location_on),
                           labelText: 'State',
                         ),
                         isEmpty: _state == '',
@@ -378,7 +378,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       new InputDecorator(
                         decoration: const InputDecoration(
-                          icon: const Icon(Icons.add_box),
+                          icon: const Icon(Icons.my_location),
                           labelText: 'District',
                         ),
                         isEmpty: _district == '',
